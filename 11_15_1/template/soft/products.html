@@ -1,0 +1,21 @@
+{% set title = "관리자 리스트" %} <!-- 자식이 부모를 채움 -->
+{% extents "soft/main.html" %}
+
+{% block content %}
+
+<table class="table table-bordered table-hover">
+    <tr>
+        <th>제목</th>
+        <th>작성일</th>
+        <th>삭제</th>
+    </tr>
+    <tr>
+        <th>제품 이름</th>
+        <th>2021-11-16</th>
+        <td>제품 이름
+            <a href="#" class="btn btn-danger">삭제</a>
+        </td>
+    </tr>
+</table>
+
+{% endblock %}
